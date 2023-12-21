@@ -19,7 +19,7 @@ with warnings.catch_warnings():
     warnings.filterwarnings("ignore")  # Ignorowanie wszystkich ostrzeżeń
 
 # Ścieżki do plików CSV
-data_path = "prostate_TumorVSNormal_TotalDATA.csv"
+data_path = "prostate_TumorVSNormal_TotalDATAUPDATE.csv"
 labels_path = "prostate_TumorVSNormal_TotalLABELS.csv"
 
 # Tworzenie nazw kolumn dla danych
