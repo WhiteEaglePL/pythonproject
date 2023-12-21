@@ -23,7 +23,7 @@ data_path = "prostate_TumorVSNormal_TotalDATA.csv"
 labels_path = "prostate_TumorVSNormal_TotalLABELS.csv"
 
 # Tworzenie nazw kolumn dla danych
-column_names = [f"Attribute{i}" for i in range(1, 253)]
+column_names = [f"Attribute{i}" for i in range(1, 15155)]
 
 # Odczyt danych z pliku CSV i nadanie nazw kolumn
 df = pd.read_csv(data_path, names=column_names)
